@@ -52,11 +52,7 @@ function calcular() {
                 alert("Operação inválida.");
                 return;
         }
-    
-    
-
-
- 
+     
     const mensagem =
     resultado === "erro: Divisão por zero não é permitida." ? "Erro: Divisão por zero não é permitida." : `O resultado da operação ${operacao} entre ${numero1} e ${numero2} é: ${resultado}`;
         document.getElementById("resultado").innerText = `Resultado: ${resultado}\n\n${mensagem}`;
