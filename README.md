@@ -8,9 +8,19 @@
 
 ## Sobre o projeto
 
-Este projeto foi desenvolvido como parte da minha jornada de estudos em desenvolvimento web.
+Este projeto é uma calculadora simples desenvolvida para praticar conceitos fundamentais de JavaScript, HTML e interação com o DOM.
 
-O objetivo não é apenas construir uma calculadora, mas aprender JavaScript de forma sólida, evoluindo o projeto gradualmente e entendendo o propósito de cada linha de código.
+Até o momento, o projeto já possui uma interface básica com entradas para dois números, seleção da operação matemática, botão de cálculo e exibição do resultado diretamente na página.
+
+## O que foi implementado
+
+- Interface inicial com dois campos para números
+- Menu de seleção de operação (somar, subtrair, multiplicar e dividir)
+- Botão para executar o cálculo
+- Funções para cada operação matemática
+- Validação de entradas para garantir que sejam números válidos
+- Exibição do resultado na página
+- Tratamento para divisão por zero com mensagem de erro
 
 ## Objetivos de aprendizado
 
@@ -32,9 +42,9 @@ O objetivo não é apenas construir uma calculadora, mas aprender JavaScript de 
 ## Roadmap
 
 - [x] Operações básicas
+- [x] Seleção de operação
 - [x] Validação de entrada
 - [x] Exibição do resultado na página
-- [ ] Seleção de operação
 - [ ] Histórico de cálculos
 - [ ] Suporte ao teclado
 - [ ] Local Storage
@@ -56,9 +66,19 @@ Abra o arquivo `index.html` em seu navegador.
 
 ## About
 
-This project was created as part of my web development learning journey.
+This project is a simple calculator created to practice fundamental concepts of JavaScript, HTML, and DOM interaction.
 
-The goal is not only to build a calculator but also to develop a solid understanding of JavaScript by improving the project step by step and understanding the purpose behind every line of code.
+So far, the project already includes a basic interface with inputs for two numbers, a selector for the math operation, a calculate button, and result display directly on the page.
+
+## What has been implemented
+
+- Initial interface with two number fields
+- Operation selector (add, subtract, multiply, and divide)
+- Button to execute the calculation
+- Functions for each arithmetic operation
+- Input validation to ensure values are valid numbers
+- Result display on the page
+- Handling for division by zero with an error message
 
 ## Learning Goals
 
@@ -80,9 +100,9 @@ The goal is not only to build a calculator but also to develop a solid understan
 ## Roadmap
 
 - [x] Basic arithmetic operations
+- [x] Operation selector
 - [x] Input validation
 - [x] Display results on the page
-- [ ] Operation selector
 - [ ] Calculation history
 - [ ] Keyboard support
 - [ ] Local Storage
