@@ -1,30 +1,83 @@
-# javascript-calculator
-A calculator built with HTML, CSS, and JavaScript to practice core programming concepts and DOM manipulation.
-
 # JavaScript Calculator
 
-A simple calculator built with **HTML, CSS, and JavaScript** as part of my web development learning journey.
+🇧🇷 Português | 🇺🇸 English
 
-The main goal of this project is not just to build a calculator, but to progressively learn JavaScript fundamentals by improving the project over time.
+---
 
-## 🎯 Learning Goals
+# 🇧🇷 Português
 
-- Functions
-- Variables and data types
-- Conditionals
-- DOM manipulation
-- Events
-- Input validation
-- Code organization
-- Problem solving
+## Sobre o projeto
 
-## 🛠️ Technologies
+Este projeto foi desenvolvido como parte da minha jornada de estudos em desenvolvimento web.
+
+O objetivo não é apenas construir uma calculadora, mas aprender JavaScript de forma sólida, evoluindo o projeto gradualmente e entendendo o propósito de cada linha de código.
+
+## Objetivos de aprendizado
+
+- Funções
+- Variáveis
+- Condicionais
+- Manipulação do DOM
+- Eventos
+- Validação de dados
+- Organização de código
+- Resolução de problemas
+
+## Tecnologias
 
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
 
-## 📚 Roadmap
+## Roadmap
+
+- [x] Operações básicas
+- [x] Validação de entrada
+- [x] Exibição do resultado na página
+- [ ] Seleção de operação
+- [ ] Histórico de cálculos
+- [ ] Suporte ao teclado
+- [ ] Local Storage
+- [ ] Melhorias na interface
+
+## Como executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/phelipe2k/javascript-calculator.git
+```
+
+Abra o arquivo `index.html` em seu navegador.
+
+---
+
+# 🇺🇸 English
+
+## About
+
+This project was created as part of my web development learning journey.
+
+The goal is not only to build a calculator but also to develop a solid understanding of JavaScript by improving the project step by step and understanding the purpose behind every line of code.
+
+## Learning Goals
+
+- Functions
+- Variables
+- Conditionals
+- DOM Manipulation
+- Events
+- Input Validation
+- Code Organization
+- Problem Solving
+
+## Technologies
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+
+## Roadmap
 
 - [x] Basic arithmetic operations
 - [x] Input validation
@@ -32,19 +85,15 @@ The main goal of this project is not just to build a calculator, but to progress
 - [ ] Operation selector
 - [ ] Calculation history
 - [ ] Keyboard support
-- [ ] Save history with Local Storage
-- [ ] Improve UI/UX
+- [ ] Local Storage
+- [ ] UI improvements
 
-## 🚀 How to Run
+## Running the Project
 
-1. Clone the repository.
+Clone the repository:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/javascript-calculator.git
+git clone https://github.com/phelipe2k/javascript-calculator.git
 ```
 
-2. Open the `index.html` file in your browser.
-
-## 📖 About
-
-This project is part of my personal JavaScript study plan. Instead of relying on ready-made solutions, I'm building and improving it step by step to better understand how each feature works.
+Open the `index.html` file in your browser.
