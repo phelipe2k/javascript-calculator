@@ -30,8 +30,12 @@ function calcular() {
     const numero1 = parseFloat(document.getElementById("numero1").value);
     const numero2 = parseFloat(document.getElementById("numero2").value);
     let resultado;
-
+    if (isNaN(numero1) || isNaN(numero2)) {
+        alert("Por favor, insira números válidos.");
+        return;
+    }
             switch (operacao) {
+                
            case "somar":
                 resultado = somar(numero1, numero2);
                 break;
@@ -50,16 +54,9 @@ function calcular() {
         }
     
     
-    if (isNaN(numero1) || isNaN(numero2)) {
-        alert("Por favor, insira números válidos.");
-        return;
-    }
 
-    console.log("Soma: " + somar(numero1, numero2));
-    console.log("Subtração: " + subtrair(numero1, numero2));
-    console.log("Multiplicação: " + multiplicar(numero1, numero2));
-    console.log("Divisão: " + dividir(numero1, numero2));  
 
+ 
     const mensagem =
     resultado === "erro: Divisão por zero não é permitida." ? "Erro: Divisão por zero não é permitida." : `O resultado da operação ${operacao} entre ${numero1} e ${numero2} é: ${resultado}`;
         document.getElementById("resultado").innerText = `Resultado: ${resultado}\n\n${mensagem}`;
