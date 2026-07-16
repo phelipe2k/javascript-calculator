@@ -4,7 +4,36 @@ if (botao) {
     botao.addEventListener("click", calcular);
 }
 
+const botaolimparCampos = document.getElementById("limparCampos");
+if (botaolimparCampos) {
+    botaolimparCampos.addEventListener("click", limparCampos);
+}
 
+const botaomostrarResultado = document.getElementById("mostrarResultado");
+if (botaomostrarResultado) {
+    botaomostrarResultado.addEventListener("click", function() {
+        const { numero1, numero2, operacao } = obterValoresFormulario();
+        let resultado;
+        switch (operacao) {
+            case "somar":
+                resultado = somar(numero1, numero2);
+                break;
+            case "subtrair":
+                resultado = subtrair(numero1, numero2);
+                break;
+            case "multiplicar":
+                resultado = multiplicar(numero1, numero2);
+                break;
+            case "dividir":
+                resultado = dividir(numero1, numero2);
+                break;
+            default:
+                alert("Operação inválida.");
+                return;
+        }
+        mostrarResultado(resultado);
+    });
+}
 
 function somar(numero1, numero2) {
     return numero1 + numero2;
@@ -59,3 +88,24 @@ function calcular() {
         document.getElementById("numero1").value = "";
         document.getElementById("numero2").value = "";
 }
+
+
+
+function obterValoresFormulario() {
+    const numero1 = parseFloat(document.getElementById("numero1").value);
+    const numero2 = parseFloat(document.getElementById("numero2").value);
+    const operacao = document.getElementById("operacao").value;
+    return { numero1, numero2, operacao };
+}   
+
+function limparCampos() {
+    document.getElementById("numero1").value = "";
+    document.getElementById("numero2").value = ""; }
+
+    function limparResultado() {
+    document.getElementById("resultado").innerText = "";
+}   
+
+function mostrarResultado(resultado) {
+    document.getElementById("resultado").innerText = `Resultado: ${resultado}`;
+}   
